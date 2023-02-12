@@ -1,0 +1,17 @@
+in each npz we have keys
+video_2d   N_video * 100 * 24*2
+video_3d   N_video * 100 * 24*3
+frame_num  100 is the longerest sequence length, frame_num records actual length of each sequence
+width
+height
+
+# files description
+03_01_c0008, the first val sequence images
+smpl_relations.py from author of Surreal to give each joint name.
+three surreal npz files, you can use any or all of them for training
+Surreal comes from CMU-mocap, which is one of the world largest mocap sequences.
+You can add gaussian noise to perturb the 2d joint to synthesis 2d detection instead of 2d gt.
+
+# download
+
+Download train, val and test npzs from [here](https://drive.google.com/drive/folders/1k6EVzzXztZmrQJnZUsWvkmuCE8EB-o3E?usp=sharing).
